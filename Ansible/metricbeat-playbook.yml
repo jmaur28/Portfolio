@@ -28,3 +28,4 @@
     systemd:
       name: metricbeat
       enabled: yes
+      
