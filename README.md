@@ -41,7 +41,7 @@ The configuration details of each machine may be found below
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- Home Machine (76.87.247.115)
+- Home Machine IP address
 
 Machines within the network can only be accessed by the Jump Box (10.0.0.4).
 
@@ -49,10 +49,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name      | Publicly Accessible | Allowed IP Addresses    |
 |-----------|---------------------|-------------------------|
-| Jump Box  |          No         | 76.87.247.115           |
+| Jump Box  |          No         | Home Machine            |
 | Web-1     |          No         | 10.0.0.4  10.1.0.4      |
 | Web-2     |          No         | 10.0.0.4  10.1.0.4      |
-| Elk Stack |          No         | 10.0.0.4  76.87.247.115 |
+| Elk Stack |          No         | 10.0.0.4  Home Machine  |
 
 ### Elk Configuration
 
