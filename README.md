@@ -88,5 +88,3 @@ SSH into the control node and follow the steps below:
 - Copy the hosts.yml file to /etc/ansible/hosts
 - Update the hosts file to include the elk server ip [10.1.0.4] seperate from the webservers
 - Run the playbook, and navigate to 104.42.184.164:5601 to check that the installation worked as expected.
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
